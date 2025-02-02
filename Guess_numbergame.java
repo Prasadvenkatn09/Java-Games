@@ -34,7 +34,7 @@ public class GuessTheNumberGame {
             }
             
             if (attempts == maxAttempts) {
-                System.out.println("Sorry, you've run out of attempts. The secret number was " + secretNumber + ".");
+                System.out.println("Sorry!, you've run out of attempts. The secret number was " + secretNumber + ".");
             }
         }
         
